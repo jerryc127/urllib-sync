@@ -41,6 +41,10 @@ urllib.request(input.url, input.args, function (err, data, res) {
     type = 'string';
   }
 
+  if (typeof os.tmpDir !== 'function') {
+    os.tmpDir = os.tmpdir
+  }
+  
   var filepath = path.join(os.tmpDir(), name);
 
   // if need to writeFile

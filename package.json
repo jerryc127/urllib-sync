@@ -22,8 +22,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "urllib": "~2.11.0",
-    "utility": "~1.7.1"
+    "urllib": "~2.37.1",
+    "utility": "~1.17.0"
   },
   "devDependencies": {
     "autod": "2",
